@@ -30,6 +30,7 @@ public:
     void addPressure(double inPressure);
     vec3 getDisplacement();
     void setDisplacement(const vec &inDisplacement);
+    bool inMotion;
 
 protected:
     vec3 r;
